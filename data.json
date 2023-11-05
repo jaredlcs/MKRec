@@ -1,0 +1,221 @@
+[
+    {
+        "keyboard": "QK60",
+        "layout": "60%",
+        "price": "$200",
+        "description": "60% Keyboard produced by QwertyKeys",
+        "features": "aluminum case, stainless steel weight, hotswap & solder pcb, multiple plate options",
+        "colors": "Smokey, Clear, Black, Ice White, Burgundy, Black, Pink, Lavender, Mint",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "QK65",
+        "layout": "65%",
+        "price": "$220",
+        "description": "65% Keyboard produced by QwertyKeys",
+        "features": "aluminum case, stainless steel weight, hotswap & solder pcb, multiple plate options",
+        "colors": "Silver, Blue, Burgundy, Dark Green, Grey, Black, Green, E-White, Pink, Lilac",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "QK75",
+        "layout": "75%",
+        "price": "$250",
+        "description": "75% Keyboard produced by QwertyKeys",
+        "features": "aluminum case, stainless steel weight, hotswap & solder pcb, multiple plate options",
+        "colors": "Grey, Red, Blue, Green, Black, Mint, Ice White, Milky White, Pink, Lavender",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "QK80",
+        "layout": "80%",
+        "price": "$270",
+        "description": "80% Keyboard produced by QwertyKeys",
+        "features": "aluminum case, PVD or ice crystal weight, hotswap & solder pcb, wireless & wired pcb options, multiple plate options, WK or WKL option",
+        "colors": "Black, Brown, Grey, Green, Lavender, Navy, Pink, Silver, White, Milky White",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "QK100",
+        "layout": "Full Size",
+        "price": "$300",
+        "description": "Full Size Keyboard produced by QwertyKeys",
+        "features": "aluminum case, stainless steel weight, hotswap & solder pcbs, wireless & wired pcb options, multiple plate options, LCD Screen",
+        "colors": "Yellow, Green, Blue, White, Cream, Lavender, Pink, Brown, Navy, Red, Silver, Black",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "Cub65",
+        "layout": "65%",
+        "price": "$165",
+        "description": "65% Keyboard produced by QwertyKeys in collaboration with Cub Studios",
+        "features": "aluminum case, PVD or sandblasted weight, hotswap & solder pcb, multiple plate options, cute animal badge",
+        "colors": "Red, Blue, Brown, Cream, White, Lilac, Mint, Pink, Rose",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "Zoom65",
+        "layout": "65%",
+        "price": "$195",
+        "description": "65% Keyboard produced by Meletrix",
+        "features": "aluminum case, Engraved aluminium weight, Allows for ANSI, ISO, split spacebar, back space; multiple plate options, flex cut PCB and Plate, volume knob,",
+        "colors": "Ivory Cream, Ivory Cream, White, Black, Blush Pink, Faint Blurple, Lilac",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "Zoom75",
+        "layout": "75%",
+        "price": "$230",
+        "description": "75% Keyboard produced by Meletrix",
+        "features": "aluminum case, Aluminium or PVD weight, Allows for ANSI, ISO, split spacebar, back space; multiple plate options, Choice for flex cut PCB and Plate, volume knob, Choice between LCD Screen, Badge, or 2 Extra keys on top right corner",
+        "colors": "Black, Lavender, Orange, E-White, Bluish Pink, Grey, Yellow, Silver, Milk Tea, Lilac, Milky Green, Navy, Plum, Scarlet Red, Sky Blue, Wild Green, White, Teal, Strawberry Ice Cream",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "Zoom TKL",
+        "layout": "TKL",
+        "price": "$220",
+        "description": "Tenkeyless Keyboard produced by Meletrix",
+        "features": "aluminum case, Glass, PVD, or Carbon Fiber weight, Hot-swap, multi-layout Bluetooth PCB, multiple plate options, Choice for flex cut PCB and Plate, volume knob, Choice between LCD Screen, Badge, Volume or 2 Extra keys on top right corner",
+        "colors": "Black, Bluish Pink, Grey, Lilac, Navy, Scarlet Red, Sky Blue, Wild Green, White, Faint Blurple",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "Zoom98",
+        "layout": "98%",
+        "price": "$230",
+        "description": "98% Keyboard produced by Meletrix",
+        "features": "aluminum case, Glass, PVD, or Carbon Fiber weight, Hot-swap, multi-layout Bluetooth PCB, multiple plate options, Choice for flex cut PCB and Plate, volume knob, Choice between LCD Screen, Badge, Volume knob, or 2 Extra keys above insert/pgup cluster",
+        "colors": "Black, Lavender, Orange, Ice Blue, E-White, Bluish Pink, Grey, Yellow, Silver, Milk Tea, Lilac, Milky Green, Navy, Plum, Scarlet Red, Sky Blue, Wild Green, White, Teal, Strawberry Ice Cream",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "Ikki68",
+        "layout": "68%",
+        "price": "$185",
+        "description": "68% Keyboard produced by Wuque Studios",
+        "features": "Polycarbonate case, Hot-swap PCB, Choice between wired and wireless PCB, Unique Layout, Logo chips/Badges above arrow keys, Variable gasket mount structure",
+        "colors": "Snow, Fog, Blue, Pink, Clear, White, Black, Pink, Purple, Green",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "Tata80",
+        "layout": "80%",
+        "price": "$239",
+        "description": "80% Keyboard produced by Wuque Studios",
+        "features": "Aluminum case, Hot-swap PCB with flex cuts, WK or WKL layout",
+        "colors": "E-white/Copper, Green/Copper, Black/Red, Green/Black, E-white, Black, Grey",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "M93I",
+        "layout": "Full Size",
+        "price": "$289",
+        "description": "Full sized Keyboard produced by Wuque Studios",
+        "features": "Aluminum case, PC Plate, Hotswap PCB, ANSI layout only",
+        "colors": "White, Navy, Black",
+        "mounting style": "Top mount"
+    },
+
+    {
+        "keyboard": "KEYNO Y·8",
+        "layout": "Full Size",
+        "price": "$349",
+        "description": "Full sized Keyboard produced by Keyno and distributed by Wuque Studios",
+        "features": "Aluminum case, FR4 Plate & Half Plate, Internal and external brass weight, Hotswap or soldered PCB with no flex cuts, WK or WKL layout",
+        "colors": "E-Cream, E-Pink, Black, Silver, Burgundy, Dark Green, Purple, CNC Raw",
+        "mounting style": "Gasket-mounted"
+    },
+    
+    {
+        "keyboard": "Promise87",
+        "layout": "TKL",
+        "price": "$385",
+        "description": "Tenkeyless Keyboard produced by Wuque Studios",
+        "features": "Aluminum case, Aluminum or PVD weight, Polycarbonate plate, Wired hotswap PCB with flex cuts, WK or WKL layout",
+        "colors": "E-White, Silver, Pink, Burgundy, Lavender, Violet, Green, Navy, Black",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "Balance Keyboard",
+        "layout": "FRL-1800",
+        "price": "$465",
+        "description": "F-row-less, full sized Keyboard produced by CannonKeys",
+        "features": "Aluminum case, Aluminum plate, Wired Solder-only PCB with flex cuts, Volume knob, Unique layout",
+        "colors": "Navy/Silver, Black/Silver, Grey/Lilac, E-White/Gold",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "Bakeneko60",
+        "layout": "60%",
+        "price": "$129",
+        "description": "60% Open source Keyboard designed by kkatano produced by CannonKeys",
+        "features": "Aluminum case, FR4 plate, Hotswap or soldered ANSI layout PCB",
+        "colors": "Whitish, Black, Navy, Sky Blue, Grey",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "Ginkgo65",
+        "layout": "65%",
+        "price": "$259",
+        "description": "65% Keyboard produced by Wuque Studios and M·One",
+        "features": "Aluminum case, Polycarbonate plate, Hotswap ANSI layout PCB with flex cuts",
+        "colors": "E-white, E-white/Copper, Black/Copper, Green/Black, Grey/Silver",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "Ginkgo65 Pro",
+        "layout": "65%",
+        "price": "$259",
+        "description": "65% Keyboard produced by Wuque Studios and M·One",
+        "features": "Aluminum case, Polycarbonate plate, PVD logo weight,flex cut or no flex cut option for PCB, Removable blockers, two layouts, small badge above right arrow key",
+        "colors": "White/Gold, Blue/Blue, Blue/White, Black/Burgundy, Silver, Purple/Silver, Champagne/Gold, Black/Copper, White/Copper, Champagne/Copper",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "Maze 64",
+        "layout": "60%",
+        "price": "$115",
+        "description": "60% Keyboard produced by Mechjunkies",
+        "features": "Aluminum case, Aluminum plate, Wired hotswap PCB without flex cuts",
+        "colors": "White, Black",
+        "mounting style": "Tray mount"
+    },
+
+    {
+        "keyboard": "Mammoth75",
+        "layout": "75%",
+        "price": "$460",
+        "description": "75% Keyboard produced by Wuque Studios",
+        "features": "Aluminum case, Aluminum or brass bottom case, Wired or wireless option, Hotswap or soldered PCB with flex cuts, Unique layout including a large volume knob",
+        "colors": "E-white, Black, Navy, Violet",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "Mammoth75",
+        "layout": "75%",
+        "price": "$460",
+        "description": "75% Keyboard produced by Wuque Studios",
+        "features": "Aluminum case, Aluminum or brass bottom case, Wired or wireless option, Hotswap or soldered PCB with flex cuts, Unique layout including a large volume knob",
+        "colors": "E-white, Black, Navy, Violet",
+        "mounting style": "Gasket-mounted"
+    }
+]
