@@ -3,11 +3,20 @@ Current database consists of:
 QwertyKeys
 Meletrix
 Wuque Studios
-
-To be added:
 Pixelspace
+Vertex
 TKD
-IQUNIX
 RAMA
 
-data count 21
+To be added:
+Keychron
+DROP
+AKKO
+Monsgeek
+Glorious 
+Ducky
+Epomaker
+Wind Studio
+IQUNIX
+
+data count 32

@@ -210,12 +210,112 @@
     },
 
     {
-        "keyboard": "Mammoth75",
-        "layout": "75%",
-        "price": "$460",
-        "description": "75% Keyboard produced by Wuque Studios",
-        "features": "Aluminum case, Aluminum or brass bottom case, Wired or wireless option, Hotswap or soldered PCB with flex cuts, Unique layout including a large volume knob",
-        "colors": "E-white, Black, Navy, Violet",
+        "keyboard": "Pixelspace Capsule",
+        "layout": "65%",
+        "price": "$316",
+        "description": "65% Keyboard produced by Pixelspace",
+        "features": "Aluminum case, PVD or Brass front strip, Aluminum nameplate, Polycarbonate, FR4, or POM plate; Hotswap or Solder PCB with flex cuts",
+        "colors": "Black, White, Yellow, Red, Silver, Light Green",
         "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "Endless-80",
+        "layout": "TKL",
+        "price": "$399",
+        "description": "Tenkeyless Keyboard produced by Pixelspace and KBDfans" ,
+        "features": "Aluminum case, Aluminum bottom weight, Aluminum nameplate, Aluminum, Brass, or Polycarbonate plate; Hotswap or Solder PCB without flex cuts. Unique RGB lightlight diffuse on the tail of the keyboard.",
+        "colors": "Beige, Yellow, Black, Grey, Purple",
+        "mounting style": "Top mount"
+    },
+
+    {
+        "keyboard": "Angle",
+        "layout": "TKL",
+        "price": "$440",
+        "description": "Tenkeyless Keyboard produced by Vertex",
+        "features": "Aluminum case, Aluminum, Brass, or Stainless steel bottom weight, PVD Stainless steel internal badge, Aluminum, Brass, or Polycarbonate plate; Solder ONLY PCB without flex cuts. 8 Layouts regarding WK, WKL, ANSI, ISO and an extra F13 key",
+        "colors": "Light Blue, Black, Red, Rock, Light Green, Brown, Lilac, Cream, Silver, White",
+        "mounting style": "Leaf spring mount"
+    },
+
+    {
+        "keyboard": "Arc60",
+        "layout": "60%",
+        "price": "$269",
+        "description": "60% Keyboard produced by Vertex",
+        "features": "Aluminum case, Aluminum internal weight, Aluminum Plate, Hotswap or Soldered PCB without flex cuts, Unique ID badge on the inside of the keyboard",
+        "colors": "White, Navy, Champagne, Black, Light Purple, Gold, Light Green",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "Cycle7",
+        "layout": "FRL-TKL",
+        "price": "$139",
+        "description": "F-row-less, Tenkeyless Keyboard produced by TKD",
+        "features": "Aluminum case, Mirror or sandblasted steel weight, Hotswap or soldered PCB and wired or wireless PCB with flexcuts, Unique 'ball-catch' quick assembly allows for quick and efficient modifications. Includes flex cut plugs for users who don't want flexcuts",
+        "colors": "Black, Silver, Blue, Dark Green, Dark Purple, Red, Lavender, Teal, Light Blue, Peach, Rock, Cream",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "RAMA M60-A",
+        "layout": "60%",
+        "price": "$500",
+        "description": "60% Keyboard produced by RAMA Works",
+        "features": "Aluminum case, optional brass weight, Aluminum plate, HHKB Layout, Hotswap or soldered PCB without flexcuts, Sophisticated and flashy material choices",
+        "colors": "Black, Dark grey, Silver, Pink, Navy, Dark Green",
+        "mounting style": "Plate mount"
+    },
+
+    {
+        "keyboard": "RAMA M65-B",
+        "layout": "65%",
+        "price": "$490",
+        "description": "65% Keyboard produced by RAMA Works",
+        "features": "Aluminum, Brass, or Polycarbonate case. Aluminum plate, RAMA WORKS MUTE plate mounting & dampening solution. Hotswap or Soldered PCB without flexcuts, Thick bezels",
+        "colors": "Black, Grey, White, Yellow, Rose, Transparent",
+        "mounting style": "Plate mount"
+    },
+
+    {
+        "keyboard": "RAMA M50-A GRID",
+        "layout": "GRID",
+        "price": "$300",
+        "description": "GRID layout Keyboard produced by RAMA Works",
+        "features": "Aluminum case, Aluminum plate, Hotswap or soldered PCB without flexcuts. Thick bezels and layered levels for the case creates a unique design. Unique layout and mounting style that creates a bouncy typing experience",
+        "colors": "White, Dark Grey, Black, Yellow",
+        "mounting style": "Leaf spring mount"
+    },
+
+    {
+        "keyboard": "RAMA U80-A",
+        "layout": "TKL",
+        "price": "$450",
+        "description": "Tenkeyless Keyboard produced by RAMA Works",
+        "features": "Aluminum case, Aluminum or brass plate, Matte or mirror-polished weight, Hotswap or soldered PCB without flexcuts, RAMA WORKS MUTE plate mounting & dampening solution, Unique 'old-school' appearance with a modern twist'",
+        "colors": "Black, Grey, Green, Yellow, Cream",
+        "mounting style": "Plate mount"
+    },
+
+    {
+        "keyboard": "RAMA Thermal",
+        "layout": "60%",
+        "price": "$380",
+        "description": "60% Keyboard produced by RAMA Works",
+        "features": "Aircraft-grade Aluminum case, Aluminum plate, Hotswap or soldered PCB without flexcuts, HHKB layout option, Unique mounting style creates a bouncy typing feel. Unique aesthetics resembling antique thermal grates on the sides of the keyboard",
+        "colors": "Silver, Grey, Red, Black",
+        "mounting style": "Leaf spring mount"
+    },
+
+    {
+        "keyboard": "RAMA Thermal+",
+        "layout": "65%",
+        "price": "$460",
+        "description": "65% Keyboard produced by RAMA Works",
+        "features": "Aircraft-grade Aluminum case, Aluminum plate, Hotswap or soldered PCB without flexcuts, HHKB layout option, Unique mounting style creates a bouncy typing feel. Unique aesthetics resembling antique thermal grates on the top side of the keyboard",
+        "colors": "Black, Grey, Rose Gold, White, Cream",
+        "mounting style": "Leaf spring mount"
     }
 ]
