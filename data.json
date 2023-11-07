@@ -43,7 +43,7 @@
         "keyboard": "QK100",
         "layout": "Full Size",
         "price": "$300",
-        "description": "Full Size Keyboard produced by QwertyKeys",
+        "description": "Full sized Keyboard produced by QwertyKeys",
         "features": "aluminum case, stainless steel weight, hotswap & solder pcbs, wireless & wired pcb options, multiple plate options, LCD Screen",
         "colors": "Yellow, Green, Blue, White, Cream, Lavender, Pink, Brown, Navy, Red, Silver, Black",
         "mounting style": "Gasket-mounted"
@@ -317,5 +317,95 @@
         "features": "Aircraft-grade Aluminum case, Aluminum plate, Hotswap or soldered PCB without flexcuts, HHKB layout option, Unique mounting style creates a bouncy typing feel. Unique aesthetics resembling antique thermal grates on the top side of the keyboard",
         "colors": "Black, Grey, Rose Gold, White, Cream",
         "mounting style": "Leaf spring mount"
+    },
+
+    {
+        "keyboard": "Keychron Q4",
+        "layout": "60%",
+        "price": "$143",
+        "description": "60% Keyboard produced by Keychron",
+        "features": "Aluminum case, Hotswap PCB, Easily modible, Comes fully assembled with keycaps and switches. Great budget option",
+        "colors": "",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "Keychron Q2",
+        "layout": "65%",
+        "price": "$159",
+        "description": "65% Keyboard produced by Keychron",
+        "features": "Aluminum case, Hotswap PCB, Easily modible, Comes fully assembled with keycaps and switches. Great budget option",
+        "colors": "Black, Grey, Navy, White",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "Keychron Q1",
+        "layout": "65%",
+        "price": "$161",
+        "description": "75% Keyboard produced by Keychron",
+        "features": "Aluminum case, Hotswap PCB, Easily modible, Comes fully assembled with keycaps and switches. Great budget option",
+        "colors": "Black, Grey, Navy, White, Orange, Champagne, Red, Purple, Green, Off-white",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "Keychron K2",
+        "layout": "75%",
+        "price": "$80",
+        "description": "75% Keyboard produced by Keychron",
+        "features": "Aluminum case, Hotswap PCB, Easily modible, Comes fully assembled with keycaps and switches. More compact layout than the Keychron Q series. Only 1 color option",
+        "colors": "Black",
+        "mounting style": "Tray mount"
+    },
+
+    {
+        "keyboard": "Keychron K6",
+        "layout": "65%",
+        "price": "$69",
+        "description": "65% Keyboard produced by Keychron",
+        "features": "Aluminum case, Hotswap PCB, Easily modible, Comes fully assembled with keycaps and switches. More compact layout than the Keychron Q series. Only 1 color option",
+        "colors": "Black",
+        "mounting style": "Tray mount"
+    },
+
+    {
+        "keyboard": "Keychron K7",
+        "layout": "60%",
+        "price": "$84",
+        "description": "60% Low Profile Keyboard produced by Keychron",
+        "features": "Aluminum case, Hotswap PCB, Easily modible, Comes fully assembled with keycaps and switches. More compact layout than the Keychron Q series. Only 1 color option. Low-Profile keyboard that uses different switches",
+        "colors": "Black",
+        "mounting style": "Tray mount"
+    },
+
+    {
+        "keyboard": "GMMK Pro",
+        "layout": "75%",
+        "price": "$170",
+        "description": "75% Keyboard produced by Glorious",
+        "features": "Aluminum case, aluminum plate, No internal/external weights. Hotswap wired only PCB, Volume knob, Features a unique rgb diffuser on the sides of the keyboard for enhanced aesthetics. ",
+        "colors": "Black, White",
+        "mounting style": "Gasket-mounted"
+    },
+
+    {
+        "keyboard": "GMMK 2 Compact",
+        "layout": "65%",
+        "price": "$120",
+        "description": "65% Keyboard produced by Glorious",
+        "features": "Aluminum top frame, Polymer bottom frame, Hotswap only PCB, Budget keyboard designed for gaming.",
+        "colors": "Black, White, Pink",
+        "mounting style": "Tray mount"
+    },
+
+    {
+        "keyboard": "GMMK 2 Full Size",
+        "layout": "Full Size",
+        "price": "$120",
+        "description": "Full sized Keyboard produced by Glorious",
+        "features": "Aluminum top frame, Polymer bottom frame, Hotswap only PCB, Budget keyboard designed for gaming.",
+        "colors": "Black, White, Pink",
+        "mounting style": "Tray mount"
     }
 ]

@@ -7,16 +7,15 @@ Pixelspace
 Vertex
 TKD
 RAMA
+Keychron
+Glorious
 
 To be added:
-Keychron
 DROP
 AKKO
-Monsgeek
-Glorious 
-Ducky
+Monsgeek 
 Epomaker
 Wind Studio
 IQUNIX
 
-data count 32
+data count 41
