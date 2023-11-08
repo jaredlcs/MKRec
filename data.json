@@ -111,9 +111,9 @@
 
     {
         "keyboard": "Tata80",
-        "layout": "80%",
+        "layout": "TKL",
         "price": "$239",
-        "description": "80% Keyboard produced by Wuque Studios",
+        "description": "Tenkeyless Keyboard produced by Wuque Studios",
         "features": "Aluminum case, Hot-swap PCB with flex cuts, WK or WKL layout",
         "colors": "E-white/Copper, Green/Copper, Black/Red, Green/Black, E-white, Black, Grey",
         "mounting style": "Gasket-mounted"
