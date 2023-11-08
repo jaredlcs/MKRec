@@ -13,7 +13,43 @@ print(data)
 
 from dotenv import load_dotenv
 load_dotenv()  # take environment variables from .env.
+
 import os
+import requests
+
+# Tool using Youtube API to find the top video
+API_KEY = os.getenv('YOUTUBE_API_KEY')  # Use the YouTube API key from your .env
+
+def find_top_video(query):
+    url = f'https://www.googleapis.com/youtube/v3/search?key={API_KEY}&q={query}&part=snippet&type=video&maxResults=1'
+    
+    response = requests.get(url)
+    data = response.json()
+
+    if 'items' in data:
+        top_result = data['items'][0]
+        video_id = top_result['id']['videoId']
+        video_url = f'https://www.youtube.com/watch?v={video_id}'
+        return video_url
+    else:
+        return 'No search results found for the query.'
+
+def create_video_link(video_url, keyboard_name):
+    return f"{video_url} ({keyboard_name} Video)"
+    
+def generate_video_list(results):
+    videos = []
+    for keyboard_data in results:
+        keyboard_name = keyboard_data.get('keyboard')
+        if keyboard_name:
+            video_url = find_top_video(keyboard_name)
+            videos.append({'keyboard': keyboard_name, 'link': create_video_link(video_url, keyboard_name)})
+        else:
+            videos.append({'keyboard': 'No Video Link Yet', 'link': ''})
+    return videos
+
+
+
 
 import chromadb
 from chromadb.utils import embedding_functions
@@ -129,25 +165,32 @@ def search(layout, hotswap, budget, mounting_style, flexcuts, n_results):
         query = f"{layout} layout"
         
     results = get_results(query, budget, mounting_style, n_results=n_results)
+    videos = generate_video_list(results)
+
     try:
         df = pd.DataFrame(results, columns=['keyboard', 'layout', 'mounting style', 'price', 'features'])
-        return df
+        videosDF = pd.DataFrame(videos, columns=['keyboard', 'video (copy / paste into URL)'])
+        return df, videosDF
     except Exception as e:
         raise gr.Error(e.message)
+    
 
 with gr.Blocks() as demo:
     with gr.Tab("Custom Keyboard Kit Finder"):
         with gr.Row():
             with gr.Column():
-                layout = gr.Dropdown(["60%","65%","75%", "FRL", "TKL", "Full Sized"], label="Layout")
+                layout = gr.Dropdown(["60%", "65%", "75%", "FRL", "TKL", "FRL-TKL", "Full Sized",], label="Layout")
                 hotswap = gr.Dropdown(["Yes", "No", "No Preference"], label="Hotswap")
-                budget = gr.Dropdown([200, 300, 400, 500, "None"], label="Budget")
-                mounting_style = gr.Dropdown(["Gasket-mounted", "Tray mount", "No Preference"], label="Mounting Style")
+                budget = gr.Dropdown([100, 200, 300, 400, 500, 600, "None"], label="Budget")
+                mounting_style = gr.Dropdown(["Gasket-mounted", "Tray mount", "Top mount", "Plate mount", "No Preference"], label="Mounting Style")
                 flexcuts = gr.Dropdown(["Yes", "No", "No Preference"], label = "Flex cuts")
 
                 n_results = gr.Slider(label="Results to Display (There may not be enough keyboards that meet your preferences. In which case, we will fill the results with what best fits)", minimum=0, maximum=10, value=2, step=1)
                 btn = gr.Button(value="Submit")
 
                 table = gr.Dataframe(label="Results", headers=['keyboard', 'layout', 'mounting style', 'price', 'features'])
-            btn.click(search, inputs=[layout, hotswap, budget, mounting_style, flexcuts, n_results], outputs=[table])
+                table_links = gr.Dataframe(label="Video Links", headers=['keyboard', 'link'])
+
+            btn.click(search, inputs=[layout, hotswap, budget, mounting_style, flexcuts, n_results], outputs=[table, table_links])
+
     demo.launch(share=True)
