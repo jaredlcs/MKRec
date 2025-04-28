@@ -1,4 +1,4 @@
-# GPT Powered Mechanical Keyboard Recommendations
+# AI Powered Mechanical Keyboard Recommendations
 
 This project aims to provide you with recommendations for mechanical keyboards based on your preferences. The recommendation system utilizes a database of mechanical keyboards, their features, and sound test videos from YouTube. You can input your preferences, and the system will generate recommendations for you.
 
@@ -27,7 +27,7 @@ This project aims to provide you with recommendations for mechanical keyboards b
 
 - **YouTube Integration**: The system leverages the YouTube API to find top sound test videos for each keyboard in the database.
 
-- **Embedding and Query**: It uses the ChromaDB library to embed keyboard data and search for similar keyboards based on your query.
+- **Embedding and Query**: It uses the ChromaDB library to embed keyboard data and the OpenAI embedded search function to find similar keyboards based on your query.
 
 ## How to Use
 
